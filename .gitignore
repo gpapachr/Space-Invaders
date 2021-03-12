@@ -1,9 +1,0 @@
-*.sln
-*.vcxproj
-*.filters
-*.user
-bin/*.ilk
-bin/*.pdb
-bin/*.iobj
-bin/*.ipdb
-spaceInvadersd.exe
