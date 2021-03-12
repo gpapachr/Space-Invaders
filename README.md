@@ -1,12 +1,12 @@
 # Space-Invaders
 
-The game has been implemented using the SGG library, developed by the professor of AUEB CPP Programming course and his team. For more information about that library check the forked repo in my profile which carries the version that we used in our project. It contains a nice documentation and many useful informations about how to use the library to create a simple game. 
+The game has been implemented using the SGG library, developed by the professor of AUEB CPP Programming course and his team. For more information about that library check its [github repository](https://github.com/cgaueb/sgg). It contains a nice documentation and many useful informations about how to use the library to create a simple game. 
 
 In /sgg you can find the files that we used from the sgg library.
 
-In /src you can find our code developed in cpp using Microsoft Visual Studio and so we have also uploaded the .dll files in /bin
+In /src you can find our code developed using Microsoft Visual Studio. We have also uploaded the .dll files in /bin where you can find the .exe file to download and play our game so you dont need to build our project in VS from scratch.
 
-In the bin/assets you can find the tracks and the pictures that we used to create the "Star Wars" version of Space Invaders. You can change those assets by loading yours in the specific folder and then go to the code and change the asset names in each class constructor. 
+In the bin/assets you can find the sounds, music and pictures that we used to create the "Star Wars" version of Space Invaders. You can change those assets by loading yours in the specific folder. If you decide not to keep the existing names for the files you should go to the code and change the assets names in each class constructor too. 
 
 ![space_invaders](https://user-images.githubusercontent.com/79640797/109213676-90fbac80-77b9-11eb-911f-739302539ccf.png)
 
