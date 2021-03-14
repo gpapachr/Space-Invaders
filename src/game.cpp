@@ -792,4 +792,46 @@ Game::~Game()
 		delete player;
 		player = nullptr;
 	}
+
+	for (int i = 0; i < COLUMNS; i++)
+	{
+		for (int j = 0; j < ROWS; j++)
+		{
+			if (enemies[i][j])
+			{
+				delete enemies[i][j];
+				enemies[i][j] = nullptr;
+			}
+		}
+	}
+
+	if (boss)
+	{
+		delete boss;
+		boss = nullptr;
+	}
+
+	if (enemy_fire)
+	{
+		delete enemy_fire;
+		enemy_fire = nullptr;
+	}
+
+	if (boss_fire)
+	{
+		delete boss_fire;
+		boss_fire = nullptr;
+	}
+
+	if (fire)
+	{
+		delete fire;
+		fire = nullptr;
+	}
+
+	if (p)
+	{
+		delete p;
+		p = nullptr;
+	}
 }
