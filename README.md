@@ -12,3 +12,6 @@ In the bin/assets you can find the sounds, music and pictures that we used to cr
 
 ![space_invaders2](https://user-images.githubusercontent.com/79640797/109213682-922cd980-77b9-11eb-95cb-95275bff7ec2.png)
 
+## Colaborator
+
+[@Fotios Panos](https://github.com/fotispanos)
